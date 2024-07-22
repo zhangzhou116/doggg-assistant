@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "剧点测试助手",
+  "version": "1.0.0",
+  "description": "剧点测试助手剧点测试助手",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "剧点测试助手"
+  },
+  "icons": {
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  }
+}

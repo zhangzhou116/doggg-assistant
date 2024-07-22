@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "剧点测试助手",
+  "description": "剧点技术中心专用",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup/hello.html",
+    "default_icon": "icons/icon_48.png"
+  }
+}
