@@ -1,0 +1,7 @@
+/* 原子类 */
+
+.is-text-overflow {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

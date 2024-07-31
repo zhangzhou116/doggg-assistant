@@ -1,0 +1,75 @@
+@import "global.css";
+
+.content {
+  display: flex;
+  margin-top: 10px;
+}
+
+.list {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-right: 8px;
+  padding: 8px;
+}
+
+.list:last-child {
+  margin: 0;
+}
+
+.list__title {
+  font-size: 14px;
+  padding-bottom: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.list__content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 8px;
+}
+
+.list__content-button {
+  width: 48.5%;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.list .list__content-button:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.list.is-prod .list__content-button {
+  background-color: #67C23A;
+}
+
+.list.is-test .list__content-button {
+  background-color: #409EFF;
+}
+
+.list.is-other .list__content-button {
+  background-color: #E6A23C;
+}
+
+.list__content-button:last-child, .list__content-button:nth-last-child(2) {
+  margin: 0;
+}
+
+.list__content-button a {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
