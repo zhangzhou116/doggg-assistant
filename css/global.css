@@ -1,0 +1,71 @@
+@import "mixin.css";
+
+html, body, p, h1, h2 {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  line-height: 1;
+  background-color: transparent;
+  outline: none;
+  border: 0 none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 800px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.button-group {
+  display: flex;
+  margin-top: 10px;
+}
+
+.button-group__button {
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: #909399;
+  cursor: pointer;
+}
+
+.button-group__button.is-selected {
+  background-color: #409EFF;
+  transform: scale(1);
+  cursor: initial;
+}
+
+.button-group__button:not(.is-selected):hover {
+  background-color: #409EFF;
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.button-group__button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 22px;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.button-group__button-img {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}
