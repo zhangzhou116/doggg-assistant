@@ -1,0 +1,1 @@
+localStorage.setItem("defaultPage", "treasure_box")

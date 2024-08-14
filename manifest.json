@@ -3,8 +3,12 @@
   "name": "剧点技术中心助手",
   "description": "剧点技术中心专用",
   "version": "1.0.0",
+  "icons": {
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  },
   "action": {
-    "default_popup": "popup/password_box/index.html",
+    "default_popup": "popup/index.html",
     "default_icon": "icons/icon_48.png"
   }
 }

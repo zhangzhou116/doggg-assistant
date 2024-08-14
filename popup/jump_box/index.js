@@ -1,12 +1,17 @@
 import * as accounts from "./accounts.js";
 
+localStorage.setItem("defaultPage", "jump_box")
+
 // 传入一个html元素，对应文件做对比
 function accountInfo(element, accountList) {
   const accountListStr = accountList.reduce((prev, it) => {
     const accountName = it.name
     const accountUrl = it.url
     const str = `<button class="list__content-button">
-            <a href=${accountUrl} target="_blank">${accountName}</a>
+            <a href=${accountUrl} target="_blank">
+              ${it.img ? `<img src=${it.img} />` : ""}
+              <span class="is-text-overflow">${accountName}</span>
+            </a>
           </button>`
     return prev + str
   }, "")

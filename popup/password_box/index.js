@@ -1,5 +1,7 @@
 import wifiList from './wifi.js'
 
+localStorage.setItem("defaultPage", "password_box")
+
 // 1、生成 wifi 按钮列表
 let wifiListStr = ""
 

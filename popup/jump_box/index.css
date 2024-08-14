@@ -11,6 +11,7 @@
   border-radius: 8px;
   margin-right: 8px;
   padding: 8px;
+  overflow: hidden;
 }
 
 .list:last-child {
@@ -38,6 +39,7 @@
   border-radius: 5px;
   box-sizing: border-box;
   cursor: pointer;
+  background-color: #666;
 }
 
 .list .list__content-button:hover {
@@ -45,20 +47,15 @@
   opacity: 0.8;
 }
 
-.list.is-prod .list__content-button {
-  background-color: #67C23A;
-}
-
-.list.is-test .list__content-button {
-  background-color: #409EFF;
-}
-
-.list.is-other .list__content-button {
-  background-color: #E6A23C;
-}
-
 .list__content-button:last-child, .list__content-button:nth-last-child(2) {
   margin: 0;
+}
+
+.list__content-button img {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+  border-radius: 2px;
 }
 
 .list__content-button a {
@@ -69,7 +66,7 @@
   text-decoration: none;
   color: #fff;
   box-sizing: border-box;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
