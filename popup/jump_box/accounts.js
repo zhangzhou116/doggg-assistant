@@ -2,12 +2,15 @@ export const onLine = [
   {
     name: "投放后台",
     url: "https://tfs.judianwangluo.com/login?redirect=/home/datascreen",
-    img: "./images/judian-icon.png"
+    img: "./images/judian-icon.png",
   },
   {
     name: "私域后台",
     url: "https://pzone.judianwangluo.com/login",
-    img: "./images/judian-siyu-icon.png"
+    img: "./images/judian-siyu-icon.png",
+    loginUrl: "https://pzone.judianwangluo.com/backend/login",
+    password:"judianduanju",
+    account: "sa"
   },
   {
     name: "SSO权限管理",
@@ -28,6 +31,14 @@ export const onLine = [
     name: "海外PC管理后台",
     url: "https://reel-pc-backend.shortdramamovie.com",
     img: "./images/short-drama-icon.png"
+  },
+  {
+    name: "海外app后台",
+    url: "https://reel-app-backend.shortdramamovie.com",
+    img: "./images/short-drama-icon.png",
+    loginUrl: "https://reel-app-backend.shortdramamovie.com/admin/login",
+    account: "sa",
+    password:"123456",
   }
 ];
 
@@ -65,7 +76,10 @@ export const test = [
   {
     name: "海外app后台",
     url: "https://dev-admin.tinyflixtv.com",
-    img: "./images/short-drama-icon.png"
+    img: "./images/short-drama-icon.png",
+    loginUrl: "https://dev-admin.tinyflixtv.com/admin/login",
+    account: "sa",
+    password:"123456",
   },
   {
     name: "海外PC站",

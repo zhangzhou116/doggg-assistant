@@ -40,6 +40,9 @@
   box-sizing: border-box;
   cursor: pointer;
   background-color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .list .list__content-button:hover {
@@ -56,17 +59,15 @@
   height: 12px;
   margin-right: 4px;
   border-radius: 2px;
+  pointer-events: none;
 }
 
-.list__content-button a {
+.list__content-button span {
   display: block;
-  width: 100%;
-  padding: 8px;
+  padding: 8px 0px;
   font-size: 12px;
   text-decoration: none;
   color: #fff;
   box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  pointer-events: none;
 }
