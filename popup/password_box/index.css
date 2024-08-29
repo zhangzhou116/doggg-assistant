@@ -1,42 +1,5 @@
-@import "../../css/global.css";
+@import "./index-global.css";
 
-.content {
-  display: flex;
-  margin-top: 8px;
-}
-
-.menu-list {
-  width: 100px;
-  margin-right: 8px;
-}
-
-.menu-list__button {
-  width: 100%;
-  margin-bottom: 8px;
-  padding: 8px;
-  border-radius: 5px;
-  color: #67C23A;
-  border: 1px solid #67C23A;
-  cursor: pointer;
-  box-sizing: border-box;
-  cursor: pointer;
-}
-
-.menu-list__button.is-selected {
-  color: #fff;
-  border: 1px solid transparent;
-  background-image: linear-gradient(to right, #67C23A, #87d85e);
-  cursor: initial;
-}
-
-.menu-list__button:last-child {
-  margin-bottom: 0px;
-}
-
-.menu-list__button:not(.is-selected):hover {
-  transform: scale(1.05);
-  opacity: 0.8;
-}
 
 .menu-content{
   flex: 1;

@@ -1,0 +1,44 @@
+@import "../../css/global.css";
+
+.content {
+  display: flex;
+  margin-top: 8px;
+}
+
+.menu-list {
+  width: 100px;
+  margin-right: 8px;
+}
+
+.menu-list__button {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.menu-list__button a {
+  width: 100%;
+  padding: 8px;
+  color: #67C23A;
+  border: 1px solid #67C23A;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-list__button.is-selected a {
+  color: #fff;
+  border: 1px solid transparent;
+  background-image: linear-gradient(to right, #67C23A, #87d85e);
+  cursor: initial;
+}
+
+.menu-list__button:last-child {
+  margin-bottom: 0px;
+}
+
+.menu-list__button:not(.is-selected):hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}

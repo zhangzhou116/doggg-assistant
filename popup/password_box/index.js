@@ -48,11 +48,11 @@ const buttonElements = document.getElementsByClassName('menu-content__button')
 for (let i = 0; i < buttonElements.length; i++) {
   buttonElements[i].addEventListener('click', function () {
     wifiInit(i)
-
+  
     for (let j = 0; j < buttonElements.length; j++) {
       buttonElements[j].classList.remove('is-selected')
     }
-
+  
     buttonElements[i].classList.add('is-selected')
   })
 }
@@ -63,6 +63,3 @@ const clipboard = new ClipboardJS('#wifi_password');
 clipboard.on('success', function() {
   alert('复制成功')
 });
-
-
-
