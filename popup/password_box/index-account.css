@@ -87,6 +87,12 @@
   margin: 8px;
   flex: 3;
 }
+
+.copy-text:hover{
+  color: #E6A23C;
+  cursor: copy;
+}
+
 .details-content span:first-child, .details-texts span:first-child {
   flex:2;
 }
