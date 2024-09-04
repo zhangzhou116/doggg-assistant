@@ -79,7 +79,7 @@ export const test = [
     img: "./images/short-drama-icon.png",
     loginUrl: "https://dev-admin.tinyflixtv.com/admin/login",
     account: "sa",
-    password:"123456",
+    password:"123456"
   },
   {
     name: "海外PC站",
