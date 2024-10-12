@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="title">剧点技术中心助手</h1>
+
+    <div class="button-group">
+      <button class="button-group__button">
+        <a href="../jump_box/index.html">
+          <img class="button-group__button-img" src="../../images/jump_box_icon.png" alt="跳转箱" />
+          <span>跳转箱</span>
+        </a>
+      </button>
+      <button class="button-group__button">
+        <a href="../password_box/index.html">
+          <img class="button-group__button-img" src="../../images/password_box_icon.png" alt="密码箱" />
+          <span>密码箱</span>
+        </a>
+      </button>
+      <button class="button-group__button is-selected" >
+        <a>
+          <img class="button-group__button-img" src="../../images/treasure_box_icon.png" alt="百宝箱" />
+          <span>百宝箱</span>
+        </a>
+      </button>
+    </div>
+    <div class="all-content">
+      <!-- 筛选 -->
+      <div class="content__select">
+        <input id="search-input" class="content__select-input" type="search" placeholder="输入并搜索..."/>
+        <button class="content__select-button">搜索</button>
+      </div>
+      <!-- 功能模块 -->
+      <div class="content__button-group">
+      </div>
+    </div>
+
+    <script src="./index.js" type="module"></script>
+  </body>

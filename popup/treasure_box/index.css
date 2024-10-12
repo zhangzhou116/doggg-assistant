@@ -1,0 +1,41 @@
+@import "../../css/global.css";
+
+.all-content{
+  height: 300px;
+  margin-top: 8px;
+  /* border: 1px solid #ccc; */
+}
+
+.content__select-input{
+ height: 28px;
+}
+
+.content__select-button{
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.content__button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.button__span{
+  width: 23%;
+  margin-top: 8px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.button__span:hover{
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.button__buttom-span{
+  width: 23%;
+}

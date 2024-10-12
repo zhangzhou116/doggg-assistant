@@ -1,0 +1,100 @@
+@import "./index-global.css";
+
+.account-list{
+  flex: 1;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.platform-span{
+  font-size: 16px;
+  padding:0px 16px;
+  color: #999;
+  cursor: pointer;
+  border-right: 1px solid #ddd;
+  position: relative;
+}
+
+.platform-span:last-child{
+  border: 0 none;
+}
+
+.platform-span.is-selected{
+  font-weight: bold;
+  color: #E6A23C;
+  cursor: initial;
+}
+
+.platform-span:hover{
+  color: #E6A23C;
+}
+
+.platform-span.is-selected::after, .platform-span:hover::after{
+  content: '';
+  position: absolute;
+  bottom:-6px;
+  width: 50%;
+  height: 2px;
+  background-color: #E6A23C;
+  left: 25%;
+}
+
+.details-content, .details-texts{
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.account-details{
+  margin-top: 16px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.details-texts-list{
+  width: 100%;
+  height: 300px;
+  overflow-y: auto;
+}
+
+.details-texts-list::-webkit-scrollbar {
+  width: 4px;
+  height: 100%;
+}
+
+.details-texts-list::-webkit-scrollbar-track, .details-texts-list::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+
+.details-texts-list:hover::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.details-texts-list:hover::-webkit-scrollbar-thumb {
+  background: #ddd;
+}
+
+
+.details-texts{
+  word-break: break-all;
+}
+
+.details-content{
+  font-weight: bold;
+  border-bottom-color: #000;
+}
+
+.details-content span, .details-texts span{
+  margin: 8px;
+  flex: 3;
+}
+
+.copy-text:hover{
+  color: #E6A23C;
+  cursor: copy;
+}
+
+.details-content span:first-child, .details-texts span:first-child {
+  flex:2;
+}
+
+

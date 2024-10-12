@@ -1,0 +1,73 @@
+@import "../../css/global.css";
+
+.content {
+  display: flex;
+  margin-top: 10px;
+}
+
+.list {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-right: 8px;
+  padding: 8px;
+  overflow: hidden;
+}
+
+.list:last-child {
+  margin: 0;
+}
+
+.list__title {
+  font-size: 14px;
+  padding-bottom: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.list__content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 8px;
+}
+
+.list__content-button {
+  width: 48.5%;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list .list__content-button:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.list__content-button:last-child, .list__content-button:nth-last-child(2) {
+  margin: 0;
+}
+
+.list__content-button img {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.list__content-button span {
+  display: block;
+  padding: 8px 0px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+  box-sizing: border-box;
+  pointer-events: none;
+}
