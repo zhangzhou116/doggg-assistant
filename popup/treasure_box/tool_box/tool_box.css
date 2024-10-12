@@ -1,0 +1,16 @@
+.top__title {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.exit__img {
+  width: 24px;
+}
+
+.top__title-text {
+  flex: 1;
+  text-align: center;
+}

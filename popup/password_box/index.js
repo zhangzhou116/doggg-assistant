@@ -34,6 +34,8 @@ function wifiInit(idx) {
     height: 100,
     text: `WIFI:T:WPA;P:${wifiList[idx].password};S:${wifiList[idx].name};H:false;`
   });
+
+  document.getElementById('qrcode').removeAttribute('title')
 }
 
 wifiInit(0)

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="index.css" rel="stylesheet"/>
+  <link href="/packages/pretty-print-json.css" rel="stylesheet"/>
+  <script src="/packages/pretty-print-json.min.js"></script>
+  <script src="/packages/clipboard.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="all-content">
+    <div class="top__title">
+      <img id="exit" class="exit__img" src="/images/exit.png"/>
+      <div class="top__title-text">
+        JSON 格式化工具
+      </div>
+    </div>
+  
+    <div class="json-format">
+      <div class="json">
+        <textarea id="json-input" class="json__text" placeholder="请输入要格式化的JSON/">{ "name": "John", "age": 30, "city": "New York" }
+        </textarea>
+      </div>
+
+      <div class="json">
+        <pre id="json-return" class="json__text" data-clipboard-text>格式化后的JSON</pre>
+      </div>
+    </div>
+    
+    <div class="json-format__button">
+      <button id="json-format-button">格式化</button>
+      <button id="json-format-copy">复制</button>
+    </div>
+  </div>
+</body>
+
+<script src="../tool_box.js"></script>
+<script src="./index.js"></script>
+</html>

@@ -1,0 +1,42 @@
+@import "/css/global.css";
+@import "../tool_box.css";
+
+.timestamp {
+  margin-top: 12px;
+}
+
+.timestamp__time{
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.timestamp__time:last-child {
+  margin: 0;
+}
+
+.timestamp__time-index{
+  flex: 1;
+  text-align: center;
+  font-size: 16px;
+}
+
+.timestamp__time-index.timestamp__time-input{
+  display: flex;
+  white-space: nowrap;
+}
+
+.timestamp__time-index:last-child{
+  text-align: initial;
+}
+
+.timestamp__time-index.timestamp__time-button button{
+  padding: 4px 8px;
+  border: 1px solid #bbb;
+  background-color: #eee;
+  border-radius: 4px;
+}
+
+.timestamp__time-index.timestamp__time-button button:hover{
+  background-color: #ccc;
+  cursor: pointer;
+}

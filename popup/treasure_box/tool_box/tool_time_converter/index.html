@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="index.css" rel="stylesheet"/>
+  <title>Document</title>
+</head>
+<body>
+  <div class="all-content">
+    <div class="top__title">
+      <img id="exit" class="exit__img" src="/images/exit.png"/>
+      <div class="top__title-text">
+        时间戳时间相互转换工具
+      </div>
+    </div>
+    
+    <div class="timestamp">
+      <div class="timestamp__time">
+        <div class="timestamp__time-index timestamp__time-input">
+        <span>时间戳：</span>
+        <input id="timestamp" type="search" placeholder="要转换的时间戳"/>  
+        </div>
+        
+        <div class="timestamp__time-index timestamp__time-button">
+          <button>时间戳转换成时间日期</button>
+        </div>
+        <div class="timestamp__time-index timestamp__time-return">
+          时间：<span id="time-text">请输入时间戳</span>
+        </div>
+      </div>
+      
+      <div class="timestamp__time">  
+        <div class="timestamp__time-index timestamp__time-input">
+          <span>时间日期：</span>
+          <input id="time" class="timestamp__time-input" type="datetime-local"/>
+        </div>
+        <div class="timestamp__time-index timestamp__time-button">  
+          <button>时间日期转换为时间戳</button>
+        </div>
+        <div class="timestamp__time-index timestamp__time-return">  
+          时间戳：
+          <span id="tool__time-text">请选择时间</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="./index.js"></script>
+  <script src="../tool_box.js"></script>
+</body>
+</html>

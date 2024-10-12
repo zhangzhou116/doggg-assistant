@@ -4,7 +4,8 @@ const home = [
   { "platform": "818管理员", "name": "sa", "password": "inovel2017", "remark": "测试环境" },
   { "platform": "闻语妙读", "name": "闻语妙读", "password": "inovel2019", "remark": "测试环境" },
   { "platform": "春分读物", "name": "春分读物", "password": "inovel2019", "remark": "测试环境" },
-  { "platform": "vip后台", "name": "闻语+春分", "password": "inovel2019", "remark": "测试环境" }
+  { "platform": "vip后台", "name": "闻语+春分", "password": "inovel2019", "remark": "测试环境" },
+  {"platform": "抖音渠道", "name": "抖音小渠道", "password": "182Fx07b", "remark": "测试环境"}
 ]
 
 
