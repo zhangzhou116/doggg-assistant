@@ -7,4 +7,8 @@ export const treasureButton = [
     name: "JSON 格式化工具",
     url: "./tool_box/tool_json_converter"
   },
+  {
+    name: "测试缺陷生成",
+    url: "./tool_box/tool_test_defect_generate"
+  }
 ]
