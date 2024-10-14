@@ -1,0 +1,20 @@
+@import "/css/global.css";
+@import "../tool_box.css";
+
+.test__defect{
+  display: flex;
+  margin-top: 8px;
+  justify-content: space-around
+}
+
+.button-index {
+  border: 1px solid #ccc;
+  background: #eee;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.button-index:hover{
+  background: #bbb;
+  cursor: pointer;;
+}
